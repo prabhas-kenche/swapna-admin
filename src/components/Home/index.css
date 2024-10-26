@@ -1,0 +1,29 @@
+.home-container {
+    display: flex;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+
+.navbar-container {
+    width: 250px;  /* Fixed width for the sidebar */
+    background-color: #0c2d48;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+.overview-container::-webkit-scrollbar {
+    width: 6px;
+}
+
